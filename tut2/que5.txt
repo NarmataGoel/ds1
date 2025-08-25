@@ -1,0 +1,17 @@
+que 5 
+(a) n=no of row = no. of columns 
+ space required for diagonal matrix = n
+
+ (b)space for diagonal =n 
+ space for below elements = n-1;
+ space for above elements = n-1 
+ so total space required for tri-diagonal matrix is : 3n-1 
+
+
+ (c) 
+ space for lower triangular matrix = n(n+1)/2
+
+ (d) space for upper triangular matrix = n(n+1)/2
+
+ (e) here arr[i][j]=arr[j][i] so here we need either to store lower diagonal elements or upper diagonal elements 
+ so space required = n(n+1)/2
